@@ -1,0 +1,63 @@
+html {font-family:'neo sans', arial, sans-serif}
+* {position: relative;}
+a {text-decoration: none;}
+
+img.main-logo {position: absolute;z-index:3; width:200px; padding: 1.2rem 3rem 3rem 4rem;}
+.main-video {display:flex;position:relative; align-items:center}
+.main-video video {max-width:100%;display:block}
+.main-video::before { content:''; background:rgba(0, 0, 0, 0.5); width:100%; height:100%; position:absolute;left:0;top:0;z-index:1}
+
+.main-story-text {background:none; z-index:2;
+    color: #fff;
+    text-align: left;
+    width: 40%;
+        position: absolute;
+    left: 0;
+    right: 0;
+    padding:5rem;}
+    .main-story-text h1 {font-size:2.5rem; font-weight:400; margin-top:0.2em}
+    .main-story-text a {color:white;text-transform: uppercase;letter-spacing:0.2em; font-weight:500; font-family: interstate, arial, sans-serif;}
+    .main-story-text p {font-family:Arial, Helvetica, sans-serif; line-height:2em; font-size:1.2rem}
+.small-header {color:#00CBD1; text-transform: uppercase;letter-spacing:0.2em; font-weight:500; font-family: interstate, arial, sans-serif;}
+
+nav {font-family:interstate, arial, sans-serif; font-weight:500; text-align:right;text-transform: uppercase; color:white; position:absolute; z-index:5; text-decoration:none;right:3rem}
+nav ul {list-style-type: none; display:flex;text-align:right; padding-top:1rem}
+nav ul li {padding: 0 1rem}
+
+.updates {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: 5%;
+    margin-top: 50px;
+    z-index: 9999999999999999999;
+    /* background: #072431; */
+    }
+.update-box {
+    flex: 1 0 20%;
+    flex-grow: 2;
+    margin: 20px;
+    /* border-radius: 20px; */
+    z-index: 9;
+    background: hsla(199, 75%, 20%, 1);
+    /* margin-top: -30px; */
+    z-index: 99999999;
+    /* border-top-left-radius: 35px; */
+    /* border-bottom-right-radius: 45px; */
+    box-shadow: hsla(199, 75%, 6%, 0.48) 1px 6px 24px;
+    }
+.update-box img {max-width:100%;/* border-radius:20px; */opacity: 0.9;display:block;margin-top: -21%;border-top-left-radius: 20px;border-top-right-radius: 20px;}
+.update-box-text {
+    /* position: absolute; */
+    bottom: 0px;
+    padding: 30px;
+    color: white;
+    /* font-weight: 300; */
+    font-size: 0.6em;
+    line-height: 1.5;
+    }
+.update-box-text h2 {font-weight:400; margin-top:0.2em; font-size:1.7em}
+.update-box .small-header {color: rgb(97, 250, 255);font-size:1.4em;font-weight:500;}
+.update-box .small-header.date {color: rgba(255, 255, 255, 0.75);font-size:1.1em;font-weight:400;}
