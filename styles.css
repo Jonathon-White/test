@@ -1,6 +1,10 @@
 html {font-family:'neo sans', arial, sans-serif}
 * {position: relative;}
 
+.vision h1 {
+    width: 50%;
+}
+
 .highlight {
     color: hsla(200, 87%, 37%, 1);
 }
